@@ -1,0 +1,26 @@
+{
+  "name": "web-engine",
+  "version": "1.0.0",
+  "description": "Web Engine",
+  "mode": "development",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server dist -p 1234",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Moravec Ondřej",
+  "license": "MIT",
+  "dependencies": {
+    "pixi.js": "^8.1.5"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "http-server": "^14.1.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
